@@ -1,0 +1,42 @@
+<!-- <div class="employee-card" [ngStyle]="{backgroundColor: bgColor}">
+    <div class="card-header-wrapper">
+        <div class="emp-image">
+            <img src={{imgSrc}} alt="User Image">
+        </div>
+        <div>
+            <h2>{{empName}}</h2>
+        </div>
+        <div class="employee-type">
+            <span> {{empRole}}</span>
+        </div>
+    </div>
+    <div class="card-content-wrapper">
+        <div class="employee-contact-detail">
+            <a href="">{{empEmail}}</a>
+        </div>
+    </div>
+</div> -->
+
+<div class="employee-card">
+    <div class="card-header-wrapper">
+        <div>
+            <img src='{{imgSrc}}' alt="">
+        </div>
+        <div>
+            <h2>{{empName}}</h2>
+        </div>
+        <div class="employee-type">
+            <span> {{empRole}}</span>
+        </div>
+    </div>
+    <div class="card-content-wrapper">
+        <div class="employee-contact-detail">
+            <mat-icon>email</mat-icon>
+            <a href="">{{empEmail}}</a>
+        </div>
+        <div class="employee-contact-detail">
+            <mat-icon>wifi_calling_3</mat-icon>
+            <span> {{contactNumber}} </span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<!-- <mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title-group fxLayout fxLayoutAlign="space-between center">
+            <mat-card-title *ngIf="visible">{{titile}}</mat-card-title>
+            <mat-card-subtitle>{{subTitle}}</mat-card-subtitle>
+            <mat-icon>{{icon}}</mat-icon>
+        </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+        <button (click)="onClick()" mat-flat-button color="primary">Display</button>
+    </mat-card-content>
+</mat-card> -->
+
+<div class="cards" >
+    <div class="single-card" *ngFor="let item of cards">
+        <mat-card class="card background-white">
+            <mat-card-title-group class="background-white">
+                <mat-card-subtitle font-family="Poppins"
+                    class="background-white card-subtitle">{{subTitle}}</mat-card-subtitle>
+                <mat-card-title font-family="Poppins" class="background-white emp-count">{{titile}}</mat-card-title>
+                <div class="card-image">
+                    <img src="{{icon}}" alt="">
+                </div>
+            </mat-card-title-group>
+        </mat-card>
+    </div>
+</div>

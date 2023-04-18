@@ -1,0 +1,13 @@
+figcaption {
+    background-color: #ddd;
+    color: #000;
+    font-style: italic;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+}
